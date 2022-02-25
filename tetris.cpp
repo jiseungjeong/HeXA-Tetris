@@ -391,7 +391,7 @@ void Map::setBlockInMap() {
 }
 
 void Map::setNewBlockInMap() {
-  switch (I_BLOCK) { // rand_block_num
+  switch (rand_block_num) { 
   case I_BLOCK:
     cur_block = new IBlock();
     break;
